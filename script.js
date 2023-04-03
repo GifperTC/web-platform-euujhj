@@ -10,3 +10,9 @@ function newQuote() {
   var rannum = Math.floor(Math.random() * quotes.length);
   document.getElementById('quoteDisplay').innerHTML = quotes[rannum];
 }
+
+function addQuote() {
+  var quote = document.getElementById('newQuote').value;
+  // console.log(quote);
+  quotes.push(quote);
+}
