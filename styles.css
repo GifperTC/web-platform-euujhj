@@ -50,3 +50,7 @@ h1 {
   color: rgb(166, 221, 85);
   margin-bottom: 30px;
 }
+
+#quoteDisplay {
+  margin-bottom: 10px;
+}
